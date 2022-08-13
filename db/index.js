@@ -11,7 +11,7 @@ mongoose
   .connect(MONGO_URI)
   .then((x) => {
     console.log(
-      `Connected to Mongo! Database name: "${x.connections[0].name}"`
+      `Connected to Mongo! Database name: "${x.connections[0].name}". You can do this. You are the best`
     );
   })
   .catch((err) => {

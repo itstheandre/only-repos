@@ -4,5 +4,6 @@ const app = require("./app");
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`Server listening on port http://localhost:${PORT}`);
+  console.log(`Server listening on port http://localhost:${PORT}
+  You literally are creating stuff out of thin air, or thin computers. GO AFTER IT! CRUSH IT! JUST DO IT. LaBeouf, S.`);
 });
